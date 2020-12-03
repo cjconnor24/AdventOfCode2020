@@ -18,6 +18,24 @@ public class AdventOfCode {
         System.out.format("Answer part one:\t%d\n", dayTwo.getPartOneAnswer());
         System.out.format("Answer part two:\t%d\n", dayTwo.getPartTwoAnswer());
 
+
+        System.out.println("---------------");
+        System.out.println("Day Three Answers");
+        System.out.println("---------------");
+        DayThree dayThree = new DayThree("day3.txt");
+
+
+        System.out.format("Working part two:\t%d, %d, %d, %d, %d\n",
+                dayThree.getPartOneAnswer(1, 1),
+                dayThree.getPartOneAnswer(3, 1),
+                dayThree.getPartOneAnswer(5, 1),
+                dayThree.getPartOneAnswer(7, 1),
+                dayThree.getPartOneAnswer(1, 2)
+        );
+
+        System.out.format("Part two answer:\t%d",dayThree.getPartTwoAnswer());
+
+
     }
 
 }
