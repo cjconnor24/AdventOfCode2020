@@ -35,6 +35,8 @@ public class AdventOfCode {
 
         System.out.format("Part two answer:\t%d",dayThree.getPartTwoAnswer());
 
+        System.out.println(Helper.getNewLineSeparatedStringsFromFile("day4test.txt"));
+
 
     }
 
