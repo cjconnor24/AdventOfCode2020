@@ -35,7 +35,8 @@ public class AdventOfCode {
 
         System.out.format("Part two answer:\t%d",dayThree.getPartTwoAnswer());
 
-        System.out.println(Helper.getNewLineSeparatedStringsFromFile("day4test.txt"));
+        DayFour dayFour = new DayFour("day4.txt");
+        System.out.println("There are valid passports: "+dayFour.getPartOneAnswer());
 
 
     }
